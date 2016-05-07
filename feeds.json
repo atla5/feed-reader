@@ -78,7 +78,7 @@
       "url":"http://dailynous.com/feed/"
     },
     {
-      "name": "http://www.peikoff.com/feed/",
+      "name": "Peikoff Podcast",
       "tags": [
         "philosophy",
         "podcast",
@@ -86,6 +86,11 @@
         ],
       "url":"http://recordings.talkshoe.com/rss15215.xml"
     },
+    {
+      "name": "Yaron Brook Podcast",
+      "tags": ["philosophy","objectivism","politics","podcast"],
+      "url": "http://www.blogtalkradio.com/yaronbrook/podcast"
+    }
     {
       "name": "The Objectivism Seminar",
       "tags": [
