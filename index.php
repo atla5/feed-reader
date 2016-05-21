@@ -52,6 +52,69 @@
   
   <body>
     
+    <div class="container">
+<div class="wrapper">
+  
+  <div class="row">
+    
+    <div class="col-xs-2 left" id="navigationPane">
+      
+    </div> <!-- /col-md-2 navigation -->
+    
+    
+    <div class="col-xs-8 col-md-10 content" id="content">	
+      
+      <p>Soon to be list of feeds: </p>	
+      
+      <p>
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+        eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+      </p>
+      
+      <div class="panel-group" id="accordion">
+        
+        <?php // for each $entry in lsAllEntries ?>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a href="#<? php $entry.link ?>">
+                  <b><?php $entry.title ?></b>
+                </a>
+              </h4>
+            </div>
+            <div id="<%= t.symbol %>" class="panel-collapse collapse in">
+              <div class="panel-body">
+
+                <!-- title of parent feed (e.g. Lost in the Stacks) -->
+                <p> <b> <? php $entry.feed ?> </b> </p>
+
+                <!-- date published -->                
+                <p> <u><? php $entry.publishedDate ?></u> </p>
+                
+                <!-- categories/tags -->
+                <p> <? php $entry.tags ?> </p>
+
+                <!-- contentSnippet -->
+                <p> <? php $entry.contentSnippet ?> </p>
+                
+              </div>
+            </div>
+          </div>
+        <? php end ?>
+      </div>
+      
+    </div> <!-- /col-md-10 content -->
+    
+  </div> <!-- /row -->
+  
+</div><!-- wrapper -->
+  
+</div><!-- container-->
+    
     <div class="row">
       
       <!-- navigation pane -->
