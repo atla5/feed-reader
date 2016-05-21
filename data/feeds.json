@@ -46,10 +46,15 @@
       "url":"http://dailynous.com/feed/"
     },
     {
-      "name": "http://www.peikoff.com/feed/",
+      "name": "Leonard Peikoff",
       "tags": [ "philosophy", "podcast", "objectivism" ],
       "url":"http://recordings.talkshoe.com/rss15215.xml"
     },
+    {
+      "name": "The Yaron Brook Show",
+      "tags": ["philosophy", "podcast", "objectivism", "politics"],
+      "url": "http://www.blogtalkradio.com/yaronbrook/podcast"
+    }
     {
       "name": "The Objectivism Seminar",
       "tags": [ "philosophy", "podcast", "objectivism" ],
@@ -67,7 +72,7 @@
     },
     {
       "name": "Vice News",
-      "tags": ["news", "politics" ],
+      "tags": ["news", "politics", "articles" ],
       "url":"https://news.vice.com/rss"
     },
     {
@@ -87,7 +92,7 @@
     },
     {
       "name": "Homebrewing",
-      "tags": ["homebrewing", "articles"]
+      "tags": ["homebrewing", "blog"]
       "url": "http://www.homebrewing.com/rssfull/"
     }
   ]
