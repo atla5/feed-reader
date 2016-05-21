@@ -68,7 +68,7 @@
           <!-- content pane containing the actual entries display -->
           <div class="col-xs-8 col-md-10 content" id="content">	
             
-            <h3></h3>
+            <h3>Welcome to FeedReader!</h3>
             
             <p>Soon to be list of feeds: </p>	
             
@@ -99,20 +99,21 @@
       
                       <!-- date published -->                
                       <p> <u>Thu, 08 Oct 2015 17:06:49 -0700<? php $entry.publishedDate ?></u> </p>
-                      
-                      <!-- categories/tags -->
-                      <p> Podcast, Philosophy <? php $entry.tags ?> </p>
       
                       <!-- contentSnippet -->
-                      <p>"Fresh brewed espresso goes into a barrel aged stout and tart raspberry contrasts caramel and chocolate malt in a barrel aged ..."</p>
                       <p> This is an example of a content snippet from a given entry that is text. It shows the first N words followed by an elipse. ...
                         <? php $entry.contentSnippet ?> 
                       </p>
+                      
+                      <!-- categories/tags -->
+                      <p> <i> tags: [Podcast, Philosophy] <? php $entry.tags ?> </i> </p>
                       
                     </div>
                   </div>
                 </div>
               <? php end ?>
+              
+              <h3>...</h3>
             </div>
             
           </div> <!-- /col-md-10 content -->
